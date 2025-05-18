@@ -32,7 +32,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 ------ Tab
      local Tab1o = MakeTab({Name = "Script Farm"})
      local Tab2o = MakeTab({Name = "Hop sever"})
-     
+     local Tab3o = MakeTab({Name = "fix lag"})
 ------- BUTTON
     
     AddButton(Tab1o, {
@@ -50,5 +50,11 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/newredz/BloxFruits/re
      Name = "Huy sad",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/HuySadd/Huy-Sad-Hop/refs/heads/main/Hop%20Huy%20Sad.lua"))()
+  end
+  })
+AddButton(Tab3o, {
+     Name = "turbo lite",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"))()
   end
   })
